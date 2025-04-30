@@ -18,4 +18,10 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
    Abre la terminal o consola y ejecuta:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/agutemal/crud_citas_medicas.git
+   ```
+2. Moverse al directorio del proyecto a la carpeta htdocs
+3. Configurar la base de datos.
+- Crear una base de datos con el nombre citas_medicas
+- importar el archivo citas_medicas.sql o ejecutar el codigo que se encuentra en el archivo
+- cambiar las configuracion del archivo que se encuentra en la ruta: /config/config.php
